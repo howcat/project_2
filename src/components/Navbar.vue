@@ -15,12 +15,11 @@ function toggleHamburger() {
         class="xl:fixed left-0 top-0 z-10 flex justify-between items-center px-8 lg:px-20 w-full h-20 md:h-36 bg-transparent text-amber-50">
 		<h1 class="text-4xl ml-0 sm:ml-4 xl:ml-16">{{ title }}</h1>
 		<div class="hidden sm:flex justify-center w-auto bg-transparent py-2">
-			<button
-				v-for="(item, index) in buttons"
-				:key="index"
+			<RouterLink to="/" 
+				v-for="(item, index) in buttons" :key="index"
 				class="bg-transparent text-amber-50 font-bold mx-1 lg:mx-6 py-3 px-6 cursor-pointer rounded-full duration-300 hover:text-amber-300">
 				{{ item }}
-			</button>
+            </RouterLink>
 		</div>
 		<button class="sm:hidden" @click="toggleHamburger()">
 			<svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">

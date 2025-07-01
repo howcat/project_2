@@ -1,14 +1,6 @@
 # project_2
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
+這是一份運用vue3和tailwind技術的專案，實作一個義大利麵餐廳的官方網頁。目前仍在進一步完善中，目標是完成各個頁面，並串接簡單的web API。
 
 ## Project Setup
 
